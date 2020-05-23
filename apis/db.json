@@ -1,0 +1,164 @@
+{
+    "ricks": [
+        {
+            "id": 1,
+            "dimension": "Canibais Incestuosos da Beth",
+            "name": "Rick Beth",
+            "url_photo": "",
+            "current_dimension": "Canibais Incestuosos da Beth"
+        },
+        {
+            "id": 2,
+            "dimension": "Hamsters Inteligentes",
+            "name": "Rick Hamsters",
+            "url_photo": "",
+            "current_dimension": "Hamsters Inteligentes"
+        },
+        {
+            "id": 3,
+            "dimension": "Cabeças Gigantes",
+            "name": "Rick Cabeças",
+            "url_photo": "",
+            "current_dimension": "Cabeças Gigantes"
+        },
+        {
+            "id": 4,
+            "dimension": "Trombas narizes",
+            "name": "Rick Trombas",
+            "url_photo": "",
+            "current_dimension": "Trombas narizes"
+        },
+        {
+            "id": 5,
+            "dimension": "Humanos milho",
+            "name": "Rick Milho",
+            "url_photo": "",
+            "current_dimension": "Humanos milho"
+        },
+        {
+            "id": 6,
+            "dimension": "Rostos pequenos com cabeças grandes",
+            "name": "Rick Rostos Pequenos",
+            "url_photo": "",
+            "current_dimension": "Rostos pequenos com cabeças grandes"
+        },
+        {
+            "id": 7,
+            "dimension": "J-19Z",
+            "name": "Rick J-19Z",
+            "url_photo": "",
+            "current_dimension": "J-19Z"
+        },
+        {
+            "id": 8,
+            "dimension": "Aranhas telepáticas",
+            "name": "Rick Aranhas",
+            "url_photo": "",
+            "current_dimension": "Aranhas telepáticas"
+        },
+        {
+            "id": 9,
+            "dimension": "C-137",
+            "name": "Rick Sanchez",
+            "url_photo": "",
+            "current_dimension": "C-137"
+        },
+        {
+            "id": 10,
+            "dimension": "Pizzas, móveis e telefones",
+            "name": "Rick Pizzas",
+            "url_photo": "",
+            "current_dimension": "Pizzas, móveis e telefones"
+        }
+    ],
+    "mortys": [
+        {
+            "id": 1,
+            "name": "Morty Beth",
+            "dimension": "Canibais Incestuosos da Beth",
+            "rick_property": "Rick Beth",
+            "url_photo": "",
+            "current_dimension": "Canibais Incestuosos da Beth"
+        },
+        {
+            "id": 2,
+            "name": "Morty Hamsters",
+            "dimension": "Hamsters Inteligentes",
+            "rick_property": "Rick Hamsters",
+            "url_photo": "",
+            "current_dimension": "Hamsters Inteligentes"
+        },
+        {
+            "id": 3,
+            "name": "Morty Cabeças",
+            "dimension": "Cabeças Gigantes",
+            "rick_property": "Rick Cabeças",
+            "url_photo": "",
+            "current_dimension": "Cabeças Gigantes"
+        },
+        {
+            "id": 4,
+            "name": "Morty Trombas",
+            "dimension": "Trombas narizes",
+            "rick_property": "Rick Trombas",
+            "url_photo": "",
+            "current_dimension": "Trombas narizes"
+        },
+        {
+            "id": 5,
+            "name": "Morty Milho",
+            "dimension": "Humanos milho",
+            "rick_property": "Rick Milho",
+            "url_photo": "",
+            "current_dimension": "Humanos milho"
+        },
+        {
+            "id": 6,
+            "name": "Morty Rostos Pequenos",
+            "dimension": "Rostos pequenos com cabeças grandes",
+            "rick_property": "Rick Rostos Pequenos",
+            "url_photo": "",
+            "current_dimension": "Rostos pequenos com cabeças grandes"
+        },
+        {
+            "id": 7,
+            "name": "Morty J-19Z",
+            "dimension": "J-19Z",
+            "rick_property": "Rick J-19Z",
+            "url_photo": "",
+            "current_dimension": "J-19Z"
+        },
+        {
+            "id": 8,
+            "name": "Morty Aranhas",
+            "dimension": "Aranhas telepáticas",
+            "rick_property": "Rick Aranhas",
+            "url_photo": "",
+            "current_dimension": "Aranhas telepáticas"
+        },
+        {
+            "id": 9,
+            "name": "Morty Smith",
+            "dimension": "C-137",
+            "rick_property": "Rick Sanchez",
+            "url_photo": "",
+            "current_dimension": "C-137"
+        },
+        {
+            "id": 10,
+            "name": "Morty Pizzas",
+            "dimension": "Pizzas, móveis e telefones",
+            "rick_property": "Rick Pizzas",
+            "url_photo": "",
+            "current_dimension": "Pizzas, móveis e telefones"
+        }
+    ],
+    "historic": [
+        {
+            "id": 1,
+            "rick_name": "",
+            "origin": "",
+            "destiny": ""
+        }
+    ] 
+}
