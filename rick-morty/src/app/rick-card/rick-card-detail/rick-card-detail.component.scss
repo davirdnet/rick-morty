@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #b2ff93;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 120px;
+    &__img {
+        max-height: fit-content;
+    }
+}
+
+.card-detail {
+    padding-left: 20px;
+    &__name {
+        padding-top: 10px;
+        font-size: 38px;
+        font-weight: bold;
+        padding-bottom: 15px;
+        color: #104752;
+    }
+    &__dimension {
+        font-size: 20px;
+        padding-bottom: 10px;
+        &__title {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+    &__img-dimension {
+        max-height: 220px;
+    }
+    &__current-dimension {
+        padding-top: 10px;
+        font-size: 14px;
+        font-style: italic;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-space {
+    padding: 30px;
+}

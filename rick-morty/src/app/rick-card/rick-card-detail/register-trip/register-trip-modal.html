@@ -1,0 +1,20 @@
+<h2 mat-dialog-title>Cadastro de viagem</h2>
+<mat-dialog-content class="modal-body">
+    <form class="form" [formGroup]="form">
+      <mat-form-field class="form-field">
+        <mat-label>Dimensão atual</mat-label>
+        <input matInput formControlName="atual" [(ngModel)]="data.current_dimension" readonly="true">
+      </mat-form-field>
+      <mat-form-field class="form-field">
+          <mat-label>Dimensão destino</mat-label>
+          <input matInput formControlName="destino" placeholder="Insira dimensão que deseja viajar">
+          <mat-error *ngIf="form.controls['destino'].errors?.required">
+              Destino obrigatório!
+          </mat-error>
+      </mat-form-field>
+      </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Fechar</button>
+  <button mat-button (click)="register()">Registrar viagem</button>
+</mat-dialog-actions>

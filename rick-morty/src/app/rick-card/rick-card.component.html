@@ -1,0 +1,13 @@
+<mat-card class="card" *ngFor="let rick of ricks">
+    <mat-card-header class="card-header">
+        <div mat-card-avatar class="avatar-card"></div>
+        <mat-card-title class="card-name">{{rick.name}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/img/rick-photo.png" alt="Rick Photo">
+    <mat-card-content>
+        <app-morty-card [rickName]="rick.name"></app-morty-card>
+    </mat-card-content>
+    <mat-card-actions class="card-details">
+        <button mat-button (click)="goDetail(rick.id)" >DETALHES</button>
+    </mat-card-actions>
+</mat-card>

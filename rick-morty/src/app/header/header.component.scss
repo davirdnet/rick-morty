@@ -1,0 +1,26 @@
+.base {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    background-color: chartreuse;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.home-icon {
+    color: white;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 80%;
+}

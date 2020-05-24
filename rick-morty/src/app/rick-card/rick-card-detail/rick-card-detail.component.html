@@ -1,0 +1,26 @@
+<div class="card">
+        <img class="card__img" src="../../../assets/img/rick-photo.png" alt="Card Photo">
+    <div class="card-detail">
+        <div class="card-detail__name">
+            {{rick.name}}
+        </div>
+        <div class="card-detail__dimension">
+            <span class="card-detail__dimension__title">Dimensão de origem</span><br>
+            {{rick.dimension}}
+        </div>
+        <div>
+            <img class="card-detail__img-dimension" [src]="rick.url_photo" alt="Dimension Photo">
+        </div>
+        <div class="card-detail__current-dimension">
+            Atualmente localizado na dimensão: {{rick.current_dimension}}
+        </div>
+    </div>
+</div>
+<div class="buttons">
+    <div class="button button-space">
+        <button mat-raised-button color="primary" (click)="goHistoric(rick.name)">Histórico de Viagens</button>
+    </div>
+    <div class="button button-space">
+        <button mat-raised-button color="warn" (click)="registerTrip()">Cadastar Viagem</button>
+    </div>
+</div>

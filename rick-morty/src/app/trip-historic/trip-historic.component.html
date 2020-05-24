@@ -1,0 +1,19 @@
+<div class="historic">
+    <div class="title">Viagens dimensionais de <strong>{{rickName}}</strong></div>
+    <div class="table header">
+        <div class="table__id header">Viagem No.</div>
+        <div class="table__origin header">Dimensão Origem</div>
+        <div class="table__destiny header">Dimensão Destino</div>
+    </div>
+    <div class="table" *ngFor="let trip of trips; let i = index">
+        <div class="table__id">
+            {{trip.id}}
+        </div>
+        <div class="table__origin">
+            {{trip.origin}}
+        </div>
+        <div class="table__destiny">
+            {{trip.destiny}}
+        </div>
+    </div>
+</div>
