@@ -5,14 +5,14 @@
       "dimension": "Canibais Incestuosos da Beth",
       "name": "Rick Beth",
       "url_photo": "../../../assets/img/canibais.jpeg",
-      "current_dimension": "Pizzas"
+      "current_dimension": "Aranhas telepáticas"
     },
     {
       "id": 2,
       "dimension": "Hamsters Inteligentes",
       "name": "Rick Hamsters",
       "url_photo": "../../../assets/img/hamsters.jpeg",
-      "current_dimension": "Hamsters"
+      "current_dimension": "Aranhas telepaticas"
     },
     {
       "id": 3,
@@ -271,6 +271,20 @@
       "destiny": "Aranhas telepáticas",
       "current_dimension": "Aranhas telepáticas",
       "id": 22
+    },
+    {
+      "rick_name": "Rick Beth",
+      "origin": "Pizzas",
+      "destiny": "Aranhas telepáticas",
+      "current_dimension": "Aranhas telepáticas",
+      "id": 23
+    },
+    {
+      "rick_name": "Rick Hamsters",
+      "origin": "Hamsters",
+      "destiny": "Aranhas telepaticas",
+      "current_dimension": "Aranhas telepaticas",
+      "id": 24
     }
   ]
 }

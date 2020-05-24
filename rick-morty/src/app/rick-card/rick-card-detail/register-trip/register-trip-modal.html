@@ -16,5 +16,5 @@
 </mat-dialog-content>
 <mat-dialog-actions align="end">
   <button mat-button mat-dialog-close>Fechar</button>
-  <button mat-button (click)="register()">Registrar viagem</button>
+  <button mat-button (click)="register()"  [disabled]="form.invalid">Registrar viagem</button>
 </mat-dialog-actions>
