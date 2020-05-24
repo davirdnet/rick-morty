@@ -26,7 +26,7 @@
       "dimension": "Trombas narizes",
       "name": "Rick Trombas",
       "url_photo": "../../../assets/img/trombas.jpeg",
-      "current_dimension": "Trombas narizes"
+      "current_dimension": "Aranhas telepáticas"
     },
     {
       "id": 5,
@@ -285,6 +285,13 @@
       "destiny": "Aranhas telepaticas",
       "current_dimension": "Aranhas telepaticas",
       "id": 24
+    },
+    {
+      "rick_name": "Rick Trombas",
+      "origin": "Trombas narizes",
+      "destiny": "Aranhas telepáticas",
+      "current_dimension": "Aranhas telepáticas",
+      "id": 25
     }
   ]
 }

@@ -1,8 +1,6 @@
 import { TripHistoricService } from './trip-historic.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { MatTableDataSource } from '@angular/material/table';
-import { stringify } from 'querystring';
 
 @Component({
   selector: 'app-trip-historic',

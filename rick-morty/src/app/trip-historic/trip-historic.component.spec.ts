@@ -8,7 +8,8 @@ describe('TripHistoricComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TripHistoricComponent ]
+      declarations: [ TripHistoricComponent ],
+      imports: [ ],
     })
     .compileComponents();
   }));

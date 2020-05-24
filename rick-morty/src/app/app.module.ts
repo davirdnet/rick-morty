@@ -1,3 +1,5 @@
+import { TripHistoricService } from './trip-historic/trip-historic.service';
+import { RickCardDetailService } from './rick-card/rick-card-detail/rick-card-detail.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -21,6 +23,7 @@ import { RickCardDetailComponent, RegisterTripModalComponent } from './rick-card
 import { TripHistoricComponent } from './trip-historic/trip-historic.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -45,11 +48,14 @@ import { HeaderComponent } from './header/header.component';
     MatInputModule,
     MatFormFieldModule,
     MatSnackBarModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule.forRoot([])
   ],
   providers: [
     RickCardService,
-    MortyCardService
+    MortyCardService,
+    RickCardDetailService,
+    TripHistoricService
   ],
   bootstrap: [AppComponent]
 })
